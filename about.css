@@ -1,0 +1,32 @@
+.aboutUs_head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #49c4d7;
+    color: #282828;
+    background-image: url(milk.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 6rem;
+    padding: 2rem 0;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.aboutUs_main{
+    display: flex;
+    justify-content: space-between;
+}
+.aboutUs_main_img{
+    width: 30rem;
+}
+.aboutUs_main_img img{
+    width: 100%;
+    object-fit: cover;
+}
+.aboutUs_main_text{
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+    width: 50rem;
+    margin-bottom: 1rem;
+}
